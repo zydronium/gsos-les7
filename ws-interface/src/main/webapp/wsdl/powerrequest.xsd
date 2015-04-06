@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://schematics.merenita.com/gsos/power/request/"
+	targetNamespace="http://schematics.merenita.com/gsos/power/request/" elementFormDefault="qualified">
+	<!-- Kandidaat root element -->
+	<xsd:element name="powerRequest">
+		<!-- anoniem type -->
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="x" type="xsd:integer" />
+				<xsd:element name="power" type="xsd:integer" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
